@@ -1,5 +1,5 @@
 -- CREACION BASE DE DATOS
--- Creacion de la base de datos DAW215DBDepartamentos
+-- Creacion de la base de datos DAW203DBDepartamentos
 CREATE DATABASE if NOT EXISTS DAW203DBProyectoTema5;
 -- Creacion de tablas de la base de datos
 CREATE TABLE IF NOT EXISTS DAW203DBProyectoTema5.T02_Departamento(
@@ -21,7 +21,7 @@ CREATE TABLE IF NOT EXISTS DAW203DBProyectoTema5.T01_Usuario(
 )ENGINE=INNODB;
 
 -- CREACION USUARIO ADMINISTRADOR
--- Creacion de usuario administrador de la base de datos: usuarioDAW215DBDepartamentos / paso
+-- Creacion de usuario administrador de la base de datos: usuarioDAW203DBDepartamentos / paso
 CREATE USER 'usuarioDAW203DBProyectoTema5'@'%' IDENTIFIED BY 'P@ssw0rd';
 -- Permisos para la base de datos
 GRANT ALL PRIVILEGES ON DAW203DBProyectoTema5.* TO 'usuarioDAW203DBProyectoTema5'@'%';

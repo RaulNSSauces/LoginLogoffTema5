@@ -8,7 +8,7 @@ footer{
     padding-bottom: 10px;
 }
 main{
-    min-height:calc(100vh - 70px);
+    min-height:calc(100vh - 60px) !important;
 }
 .btn{
     text-decoration: none;
